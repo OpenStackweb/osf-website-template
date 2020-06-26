@@ -34,8 +34,16 @@
 @import "./modules/default-page";
 @import "./modules/search";
 
+:root {
+    
+  --dark: #000;
+  --mid: #999;
+  --light: #eeeeee;
+  --highlight: #2d72b6;
+}
+
 body {
-  color: #2d72b6;
+  color: var(--highlight);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

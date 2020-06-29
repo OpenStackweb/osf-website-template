@@ -14,7 +14,7 @@ const Mainpitch = class extends React.Component {
     if (display) {
       return (
         <React.Fragment>
-          <hr />
+          
           <section className="section-article">
             <div className="container">
               <article className="article level">

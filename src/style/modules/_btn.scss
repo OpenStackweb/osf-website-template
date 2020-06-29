@@ -28,9 +28,15 @@
   }
 
   &.is-primary {
-    background: $primary;
+    background: $primary-dark;
     color: white;
-    border: $primary-dark;
+    border: none;
+  }
+
+  &.is-primary:hover {
+    background-color: white;
+    color: $primary;
+    border: none;
   }
 
   &.is-primary-dark {

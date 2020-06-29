@@ -27,9 +27,6 @@ $primary-dark-invert: findColorInvert($primary-dark);
 $secondary: #141f47;
 $secondary-invert: findColorInvert($secondary);
 
-$dark-gray: #333;
-$dark-gray-invert: findColorInvert($dark);
-
 $dark: #0c0016;
 $dark-invert: findColorInvert($dark);
 
@@ -37,6 +34,14 @@ $danger: #d91a31;
 $danger-invert: findColorInvert($danger);
 
 $gray: #9b9b9b;
+$gray-invert: findColorInvert($gray);
+
+$dark-gray: #333;
+$dark-gray-invert: findColorInvert($dark-gray);
+
+$light-gray: #eee;
+$light-gray-invert: findColorInvert($light-gray);
+
 $white: #fff;
 $black: #222;
 
@@ -72,5 +77,13 @@ $colors: (
   "secondary": (
     $secondary,
     $secondary-invert
+  ),
+  "gray": (
+    $gray,
+    $gray-invert
+  ),
+  "light-gray": (
+    $light-gray,
+    $light-gray-invert
   )
 );

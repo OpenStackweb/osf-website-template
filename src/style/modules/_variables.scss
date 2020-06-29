@@ -24,11 +24,11 @@ $primary-invert: findColorInvert($primary);
 $primary-dark: #141F47;
 $primary-dark-invert: findColorInvert($primary-dark);
 
+$secondary: #141f47;
+$secondary-invert: findColorInvert($secondary);
+
 $dark-gray: #333;
 $dark-gray-invert: findColorInvert($dark);
-
-$primary-blue: #141f47;
-$primary-blue-invert: findColorInvert($primary-blue);
 
 $dark: #0c0016;
 $dark-invert: findColorInvert($dark);
@@ -68,5 +68,9 @@ $colors: (
   "dark-gray": (
     $dark-gray,
     $dark-gray-invert
+  ),
+  "secondary": (
+    $secondary,
+    $secondary-invert
   )
 );

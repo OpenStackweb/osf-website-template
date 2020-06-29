@@ -6,7 +6,16 @@
 .navbar {
   .container {
     min-height: 0;
+    display: flex;
     justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 752px) {
+    .container {
+      min-height: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 }
 

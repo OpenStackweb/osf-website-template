@@ -16,8 +16,13 @@ $family-primary: "Open Sans", sans-serif;
 $body-size: 14px;
 $body-line-height: 1.2;
 
+/* Colors */
+
 $primary: #2d72b6;
 $primary-invert: findColorInvert($primary);
+
+$primary-dark: #141F47;
+$primary-dark-invert: findColorInvert($primary-dark);
 
 $dark-gray: #333;
 $dark-gray-invert: findColorInvert($dark);
@@ -25,18 +30,11 @@ $dark-gray-invert: findColorInvert($dark);
 $primary-blue: #141f47;
 $primary-blue-invert: findColorInvert($primary-blue);
 
-$purple-light: #c0a9f7;
-$purple-light-invert: findColorInvert($purple-light);
-
 $dark: #0c0016;
 $dark-invert: findColorInvert($dark);
 
 $danger: #d91a31;
 $danger-invert: findColorInvert($danger);
-
-$dark-light: #4a4a4a;
-
-$primary-dark: #141F47;
 
 $gray: #9b9b9b;
 $white: #fff;
@@ -59,9 +57,9 @@ $colors: (
     $primary,
     $primary-invert
   ),
-  "purple-light": (
-    $purple-light,
-    $purple-light-invert
+  "primary-dark": (
+    $primary-dark,
+    $primary-dark-invert
   ),
   "dark": (
     $dark,

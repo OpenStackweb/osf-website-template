@@ -21,6 +21,9 @@ const Header = class extends React.Component {
           <div className="hero-body">
             <div className="container">
               <div className="hero-content">
+                <div className="hero-logo">
+                  <img src="/img/placeholder-logo-white.svg" />
+                </div>
                 <h1 className="hero-title">{title}</h1>
                 <div className="hero-subhead">
                   {subTitle.map((line, index) => {

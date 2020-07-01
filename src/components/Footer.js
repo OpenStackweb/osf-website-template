@@ -41,8 +41,6 @@ const Footer = class extends React.Component {
                       Supported by the <OutboundLink href="https://osf.dev/" target="_blank" rel="noopener noreferrer">OpenStack Foundation</OutboundLink>.
                       The community follows the OpenStack Foundation <OutboundLink href="https://www.openstack.org/legal/community-code-of-conduct/" target="_blank" rel="noopener noreferrer">Code of Conduct</OutboundLink>.
                     </p>
-                    <br/>
-                    <br/>
                   </div>
                 </div>
               </div>

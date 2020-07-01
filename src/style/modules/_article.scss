@@ -158,11 +158,12 @@
 
   .article-excerpt-entry {
     margin-bottom: 18px;
+    color: $dark-gray;
   }
 
   .article-excerpt-meta {
     font-size: 14px;
-    color: #797979;
+    color: $gray;
 
     a {
       color: inherit;

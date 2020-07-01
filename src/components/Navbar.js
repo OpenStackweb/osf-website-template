@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
             {Menu.logo &&
               <div className="nav-brand">
                 <Link to="/" title="Logo">
-                  <img src={Menu.logo} alt="OSF Website" />
+                  <img src={Menu.logo} alt="Your logo in the Nav" />
                 </Link>
                 {/* Hamburger menu */}
               </div>

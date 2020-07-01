@@ -45,23 +45,22 @@ body {
   display: none;
 }
 
+/* ------------------------------------------------------------ *\
+    User Logos
+\* ------------------------------------------------------------ */
+
 .reviews {
   padding: 50px 0;
   text-align: center;
   h4 {
     padding: 0 10% 0 10%;
   }
-  h3 {
-    
-  }
-}
 
-.support-content {
-  display: flex;
-  height: 300px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @media only screen and (max-width: 752px) {
+    h4 {
+      padding: 0;
+    }
+  }
 }
 
 .quote-text {
@@ -72,7 +71,15 @@ body {
 }
 
 .quote-slider {
-  margin: 60px 0 80px 0;
+  margin: 0 auto;
+  padding: 60px 15px 80px 15px;
+  max-width: 640px;
+}
+
+@media only screen and (max-width: 752px) {
+  .quote-slider {
+    padding: 60px 0 80px 0;
+  }
 }
 
 .quote-name {
@@ -87,4 +94,16 @@ body {
 .quote-contact {
   color: $primary-dark;
   font-size: 16px;
+}
+
+/* ------------------------------------------------------------ *\
+    Supported by OSF
+\* ------------------------------------------------------------ */
+
+.support-content {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

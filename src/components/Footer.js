@@ -8,7 +8,6 @@ const Footer = class extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <hr />
         <footer className="footer">
           <div className="container container-medium">
             <div className="footer-inner">

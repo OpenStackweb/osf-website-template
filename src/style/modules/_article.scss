@@ -223,6 +223,7 @@
   }
 
   .article-single-entry {
+    color: $dark;
     margin-bottom: 47px;
 
     &-alt {
@@ -232,7 +233,7 @@
 
   .article-single-meta {
     font-size: 16px;
-    color: #797979;
+    color: $gray;
 
     a {
       color: inherit;

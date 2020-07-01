@@ -3,8 +3,9 @@
 \* ------------------------------------------------------------ */
 
 .button {
+  margin: 0 10px 0 0;
   height: auto;
-  padding: 11px 45px;
+  padding: 11px 40px;
   text-transform: uppercase;
   transition: background 0.3s;
 
@@ -30,8 +31,14 @@
   &.is-primary {
     background: $primary-dark;
     color: white;
-    border: none;
+    border: none;    
   }
+
+  @media only screen and (max-width: 752px) {
+    &.is-primary{
+      margin-bottom: 15px;
+    }
+  } 
 
   &.is-primary:hover {
     background-color: white;
@@ -44,4 +51,8 @@
     color: white;
     border: $primary-dark;
   }
+}
+
+.hero-actions {
+  margin: 0 auto;
 }

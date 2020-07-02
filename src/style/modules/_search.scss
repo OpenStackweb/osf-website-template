@@ -117,13 +117,13 @@
     border-color: $primary;
   }
 
-  textarea:focus,
+  /* textarea:focus,
   input:focus {
     color: $dark;
     border-color: $primary;
     outline: none !important;    
     box-shadow: 0 0 3px $primary;
-  }
+  } */
 }
 
 @media only screen and (max-width: 767px) {

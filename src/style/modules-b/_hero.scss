@@ -88,12 +88,12 @@
 
 .hero-main {
 	text-align: center;
-	background-color: $primary;
+	background-color: $white;
 
 	.hero-title {
 		font-size: 50px;
 		font-weight: 700;
-		color: $primary-invert;
+		color: $primary;
 	}
 
 	.hero-body {
@@ -147,10 +147,11 @@
 	padding-top: 4px;
 	padding-bottom: 35px;
 	font-size: 25px;
-	color: $primary-invert;
+	color: $primary;
 }
 
 .hero-logo {
+	display: none;
 	margin: auto;
 	margin-bottom: 15px;
 	max-width: 500px;

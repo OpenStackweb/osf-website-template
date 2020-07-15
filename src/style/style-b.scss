@@ -3,36 +3,36 @@
 \* ------------------------------------------------------------ */
 
 @import "./bulma/sass/utilities/_all";
-@import "./modules/modules-b/variables";
+@import "./modules-b/variables";
 @import "./bulma";
 
 /* ------------------------------------------------------------ *\
     Modules
 \* ------------------------------------------------------------ */
 
-@import "./modules/modules-b/base";
-@import "./modules/modules-b/form-elements";
-@import "./modules/modules-b/container";
-@import "./modules/modules-b/wrapper";
-@import "./modules/modules-b/main";
-@import "./modules/modules-b/content";
-@import "./modules/modules-b/sidebar";
-@import "./modules/modules-b/header";
-@import "./modules/modules-b/bar";
-@import "./modules/modules-b/btn";
-@import "./modules/modules-b/link";
-@import "./modules/modules-b/nav";
-@import "./modules/modules-b/hero";
-@import "./modules/modules-b/section";
-@import "./modules/modules-b/article";
-@import "./modules/modules-b/list";
-@import "./modules/modules-b/box";
-@import "./modules/modules-b/footer";
-@import "./modules/modules-b/form";
-@import "./modules/modules-b/widget";
-@import "./modules/modules-b/pagination";
-@import "./modules/modules-b/default-page";
-@import "./modules/modules-b/search";
+@import "./modules-b/base";
+@import "./modules-b/form-elements";
+@import "./modules-b/container";
+@import "./modules-b/wrapper";
+@import "./modules-b/main";
+@import "./modules-b/content";
+@import "./modules-b/sidebar";
+@import "./modules-b/header";
+@import "./modules-b/bar";
+@import "./modules-b/btn";
+@import "./modules-b/link";
+@import "./modules-b/nav";
+@import "./modules-b/hero";
+@import "./modules-b/section";
+@import "./modules-b/article";
+@import "./modules-b/list";
+@import "./modules-b/box";
+@import "./modules-b/footer";
+@import "./modules-b/form";
+@import "./modules-b/widget";
+@import "./modules-b/pagination";
+@import "./modules-b/default-page";
+@import "./modules-b/search";
 
 body {
   color: #2d72b6;

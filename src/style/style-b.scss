@@ -1,0 +1,131 @@
+/* ------------------------------------------------------------ *\
+    Bulma Styles
+\* ------------------------------------------------------------ */
+
+@import "./bulma/sass/utilities/_all";
+@import "./modules/modules-b/variables";
+@import "./bulma";
+
+/* ------------------------------------------------------------ *\
+    Modules
+\* ------------------------------------------------------------ */
+
+@import "./modules/modules-b/base";
+@import "./modules/modules-b/form-elements";
+@import "./modules/modules-b/container";
+@import "./modules/modules-b/wrapper";
+@import "./modules/modules-b/main";
+@import "./modules/modules-b/content";
+@import "./modules/modules-b/sidebar";
+@import "./modules/modules-b/header";
+@import "./modules/modules-b/bar";
+@import "./modules/modules-b/btn";
+@import "./modules/modules-b/link";w
+@import "./modules/modules-b/nav";
+@import "./modules/modules-b/hero";
+@import "./modules/modules-b/section";
+@import "./modules/modules-b/article";
+@import "./modules/modules-b/list";
+@import "./modules/modules-b/box";
+@import "./modules/modules-b/footer";
+@import "./modules/modules-b/form";
+@import "./modules/modules-b/widget";
+@import "./modules/modules-b/pagination";
+@import "./modules/modules-b/default-page";
+@import "./modules/modules-b/search";
+
+body {
+  color: #2d72b6;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header-anchor {
+  display: none;
+}
+
+/* ------------------------------------------------------------ *\
+    User Logos
+\* ------------------------------------------------------------ */
+
+.reviews {
+  padding: 50px 0;
+  text-align: center;
+  h4 {
+    padding: 0 10% 0 10%;
+  }
+
+  @media only screen and (max-width: 752px) {
+    h4 {
+      padding: 0;
+    }
+  }
+}
+
+.quote-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 26px;
+  color: $dark;
+}
+
+.quote-slider {
+  margin: 0 auto;
+  padding: 60px 15px 80px 15px;
+  max-width: 640px;
+}
+
+@media only screen and (max-width: 752px) {
+  .quote-slider {
+    padding: 60px 0 80px 0;
+  }
+}
+
+.quote-name {
+  color: $primary-dark;
+}
+
+.quote-company {
+  color: $primary-dark;
+  font-size: 1rem;
+}
+
+.quote-contact {
+  color: $primary-dark;
+  font-size: 16px;
+}
+
+/* ------------------------------------------------------------ *\
+    Supported by OSF
+\* ------------------------------------------------------------ */
+
+.support-content {
+  margin-bottom: 1.5rem;
+  display: flex;
+  padding: 60px 0 60px 0;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.osf-logo {
+  max-width: 225px;
+  margin-bottom: 30px;
+}
+
+.support-content-info {
+  margin: auto;
+  max-width: 500px;
+  padding: 0 15px 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $gray;
+}
+
+.osf-link {
+  color: $gray;
+  text-decoration: underline;
+}

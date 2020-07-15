@@ -6,7 +6,12 @@ import TopBar from '../components/TopBar'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-import '../style/style.scss'
+/* 
+Change imported stylesheet to style-b.scss for blueprint look
+Change to style.scss for designed look 
+*/
+
+import '../style/style-b.scss'
 
 const TemplateWrapper = ({ children }) => {
   return (

@@ -22,7 +22,7 @@ header:
   title: Project Tagline
 mainpitch:
   description:
-    - text: >-
+    - text: >
         Now that we’re further down the funnel, this is where we start to tell how.   
         We have the chance to peel back a few more layers, getting a glimpse into the details   
         that make this project work. The easiest form factor to use is a block of text, as   

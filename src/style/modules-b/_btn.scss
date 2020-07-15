@@ -29,9 +29,9 @@
   }
 
   &.is-primary {
-    background: $primary-dark;
-    color: white;
-    border: none;    
+    background: $white;
+    color: $primary;
+    border: 1px solid $primary;    
   }
 
   @media only screen and (max-width: 752px) {
@@ -41,9 +41,9 @@
   } 
 
   &.is-primary:hover {
-    background-color: white;
-    color: $primary;
-    border: none;
+    background-color: $primary;
+    color: $primary-invert;
+    border: 1px solid $primary; 
   }
 
   &.is-primary-dark {

@@ -17,8 +17,13 @@ const SupportBanner = class extends React.Component {
         <hr />
         <section>
           <div className="support-content">
+          {/* Render logo using CSS */}
           <a href="https://osf.dev/">
-            <img className="osf-logo" src={OSFLogo} width='250px' alt="OSF Logo" /></a>
+          <div className="support-content-logo"></div>
+          </a>
+          {/* Render logo using HTML  
+          <a href="https://osf.dev/">
+            <img className="osf-logo" src={OSFLogo} width='250px' alt="OSF Logo" /></a>*/} 
             <div className="support-content-info">
               {content.productName} is a open infrastructure project supported by the <a className="osf-link" href={"https://osf.dev/"}>OSF</a>
             </div>

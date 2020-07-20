@@ -29,8 +29,13 @@
   }
 
   &.is-primary {
-    background: $white;
     color: $primary;
+    background-color: $white;
+    border: 1px solid $primary;    
+  }
+
+  &.is-newsletter {
+    color: $white;
     border: 1px solid $primary;    
   }
 

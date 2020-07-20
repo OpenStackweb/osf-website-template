@@ -1,7 +1,7 @@
 import React from 'react'
 import content from '../content/footer-nav.json'
 
-import OSFLogo from '../../static/img/OSF_Logo_RGB_Horiz_Badge.svg'
+import OSFLogo from '../../static/img/osf-logo-outline.svg'
 
 const SupportBanner = class extends React.Component {
   constructor(props) {

@@ -20,6 +20,7 @@
 
     #about-template {
       text-align: center;
+      font-weight: 500;
     }
 
   }
@@ -63,7 +64,7 @@
   }
 
   .article-small__title {
-    color: $primary-dark;
+    color: $primary;
     margin-bottom: 15px;
     text-transform: uppercase;
   }

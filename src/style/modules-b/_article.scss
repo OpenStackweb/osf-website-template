@@ -145,7 +145,7 @@
     margin-bottom: 16px;
     font-size: 25px;
     font-weight: 500;
-    color: $primary-dark;
+    color: $primary;
 
     a {
       display: block;
@@ -159,12 +159,12 @@
 
   .article-excerpt-entry {
     margin-bottom: 18px;
-    color: $dark-gray;
+    color: $primary;
   }
 
   .article-excerpt-meta {
     font-size: 14px;
-    color: $gray;
+    color: $primary;
 
     a {
       color: inherit;
@@ -234,7 +234,7 @@
 
   .article-single-meta {
     font-size: 16px;
-    color: $gray;
+    color: $primary;
 
     a {
       color: inherit;

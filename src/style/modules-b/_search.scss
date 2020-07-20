@@ -57,7 +57,7 @@
     font-size: 16px;
     line-height: 2.13;
     margin-bottom: 0;
-    color: $dark;
+    color: $primary;
   }
 
   .button.border-search-submit {
@@ -95,7 +95,7 @@
 
   ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: $gray;
+    color: $primary;
     opacity: 0.75;
     /* Firefox */
   }

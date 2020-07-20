@@ -4,7 +4,7 @@ seo:
   description: OSF Website Template
   image: /img/og-image.jpg
   title: Home
-  twitterUsername: '@airshipproject'
+  twitterUsername: '@OSFWebsiteTemplate'
   url: 'https://yoursite.org/'
 header:
   bottomText:

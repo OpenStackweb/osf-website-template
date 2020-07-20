@@ -34,6 +34,11 @@
     border: none;    
   }
 
+  &.is-newsletter {
+    color: $white;
+    border: 1px solid $primary;    
+  }
+
   @media only screen and (max-width: 752px) {
     &.is-primary{
       margin-bottom: 15px;

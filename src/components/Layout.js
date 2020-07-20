@@ -11,7 +11,7 @@ Change imported stylesheet to style-b.scss for blueprint look
 Change to style.scss for designed look 
 */
 
-import '../style/style-b.scss'
+import '../style/style.scss'
 
 const TemplateWrapper = ({ children }) => {
   return (

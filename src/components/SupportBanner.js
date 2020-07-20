@@ -19,7 +19,7 @@ const SupportBanner = class extends React.Component {
           <div className="support-content">
           {/* Render logo using CSS */}
           <a href="https://osf.dev/">
-          <div className="support-content-logo"></div>
+          <div className="support-content-logo" title="OSF Logo" aria-label="OSF Logo"></div>
           </a>
           {/* Render logo using HTML  
           <a href="https://osf.dev/">

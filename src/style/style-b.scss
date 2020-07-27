@@ -3,36 +3,36 @@
 \* ------------------------------------------------------------ */
 
 @import "./bulma/sass/utilities/_all";
-@import "./modules/variables";
+@import "./modules-b/variables";
 @import "./bulma";
 
 /* ------------------------------------------------------------ *\
     Modules
 \* ------------------------------------------------------------ */
 
-@import "./modules/base";
-@import "./modules/form-elements";
-@import "./modules/container";
-@import "./modules/wrapper";
-@import "./modules/main";
-@import "./modules/content";
-@import "./modules/sidebar";
-@import "./modules/header";
-@import "./modules/bar";
-@import "./modules/btn";
-@import "./modules/link";
-@import "./modules/nav";
-@import "./modules/hero";
-@import "./modules/section";
-@import "./modules/article";
-@import "./modules/list";
-@import "./modules/box";
-@import "./modules/footer";
-@import "./modules/form";
-@import "./modules/widget";
-@import "./modules/pagination";
-@import "./modules/default-page";
-@import "./modules/search";
+@import "./modules-b/base";
+@import "./modules-b/form-elements";
+@import "./modules-b/container";
+@import "./modules-b/wrapper";
+@import "./modules-b/main";
+@import "./modules-b/content";
+@import "./modules-b/sidebar";
+@import "./modules-b/header";
+@import "./modules-b/bar";
+@import "./modules-b/btn";
+@import "./modules-b/link";
+@import "./modules-b/nav";
+@import "./modules-b/hero";
+@import "./modules-b/section";
+@import "./modules-b/article";
+@import "./modules-b/list";
+@import "./modules-b/box";
+@import "./modules-b/footer";
+@import "./modules-b/form";
+@import "./modules-b/widget";
+@import "./modules-b/pagination";
+@import "./modules-b/default-page";
+@import "./modules-b/search";
 
 body {
   color: #2d72b6;
@@ -64,10 +64,9 @@ body {
 }
 
 .quote-text {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
   font-size: 26px;
-  color: $dark;
+  color: $primary;
 }
 
 .quote-slider {
@@ -83,16 +82,16 @@ body {
 }
 
 .quote-name {
-  color: $primary-dark;
+  color: $primary;
 }
 
 .quote-company {
-  color: $primary-dark;
+  color: $primary;
   font-size: 1rem;
 }
 
 .quote-contact {
-  color: $primary-dark;
+  color: $primary;
   font-size: 16px;
 }
 
@@ -111,7 +110,7 @@ body {
 }
 
 .support-content-logo {
-  background-image: url("../../static/img/OSF_Logo_RGB_Horiz_Badge.svg");
+  background-image: url("../../static/img/osf-logo-outline.svg");
   background-repeat: no-repeat;
   height: 50.95px;
   width: 250px;
@@ -131,10 +130,10 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: $gray;
+  color: $primary;
 }
 
 .osf-link {
-  color: $gray;
+  color: $primary;
   text-decoration: underline;
 }

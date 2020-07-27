@@ -29,9 +29,9 @@
   }
 
   &.is-primary {
-    background: $primary-dark;
-    color: white;
-    border: none;    
+    color: $primary;
+    background-color: $white;
+    border: 1px solid $primary;    
   }
 
   &.is-newsletter {
@@ -46,9 +46,9 @@
   } 
 
   &.is-primary:hover {
-    background-color: white;
-    color: $primary;
-    border: none;
+    background-color: $primary;
+    color: $primary-invert;
+    border: 1px solid $primary; 
   }
 
   &.is-primary-dark {

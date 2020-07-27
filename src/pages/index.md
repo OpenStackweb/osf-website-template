@@ -4,7 +4,7 @@ seo:
   description: OSF Website Template
   image: /img/og-image.jpg
   title: Home
-  twitterUsername: '@airshipproject'
+  twitterUsername: '@OSFWebsiteTemplate'
   url: 'https://yoursite.org/'
 header:
   bottomText:
@@ -12,29 +12,23 @@ header:
     title: v1.x Release available now
   buttons:
     - link: '#'
-      text: Quick Start Guide
+      text: Get Started
     - link: '#'
       text: Download
   display: true
   subTitle:
-    - text: Your organization makes an exciting addition
-    - text: to elegant open infrastructure.
-  title: A Compelling Lede
+    - text: A short introduction goes in this space.
+    - text: It can be multiple lines in length.
+  title: Project Tagline
 mainpitch:
   description:
-    - text: >-
-        Social media release startup interaction design first mover advantage
-        iteration gen-z market network effects technology social proof. Startup
-        disruptive MVP business plan. Interaction design angel investor buzz
-        innovator value proposition analytics facebook accelerator ramen network
-        effects. Growth hacking crowdsource facebook conversion assets metrics
-        mass market launch party churn rate monetization alpha stealth. Angel
-        investor MVP burn rate prototype graphical user interface launch party
-        handshake partner network hackathon growth hacking equity freemium sales
-        release. Bandwidth infrastructure infographic venture pitch. Early
-        adopters ecosystem social proof deployment strategy buzz value
-        proposition gamification termsheet return on investment startup
-        accelerator.
+    - text: >
+        Now that we’re further down the funnel, this is where we start to tell how.   
+        We have the chance to peel back a few more layers, getting a glimpse into the details   
+        that make this project work. The easiest form factor to use is a block of text, as   
+        shown here. This option will be the least effective, though. If the project has a diagram     
+        or video to help with the “how”, this will be a great place to put that. Think of each of   
+        these sections as modular blocks that can be added if content is ready.
   display: true
   title: About Your Project
 features:

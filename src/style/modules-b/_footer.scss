@@ -5,8 +5,9 @@
 .footer {
   padding: 100px 0 80px 0;
   font-size: 14px;
-  color: $white;
-  background-color: $primary-dark;
+  color: $primary;
+  background-color: $white;
+  border-top: 2px solid whitesmoke;
 
   @each $name, $pair in $colors {
     $color: nth($pair, 1);
@@ -25,7 +26,7 @@
 
   .footer.is-dark {
     a {
-      color: $white;
+      color: $primary;
     }
   }
 
@@ -52,7 +53,7 @@
     width: 100%;
     justify-content: center;
     a {
-      color: $white;
+      color: $primary;
 
       &:hover {
         text-decoration: underline;
@@ -78,11 +79,11 @@
     }
 
     a {
-      color: $white;
+      color: $primary;
       text-decoration: underline;
       &:hover,
       &:focus {
-        color: $white;
+        color: $primary;
       }
     }
 
